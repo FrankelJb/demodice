@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) DiceDataController *model;
+
 @end
 
 @implementation ViewController
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.model = [[DiceDataController alloc] init];
 }
 
 - (void)didReceiveMemoryWarning

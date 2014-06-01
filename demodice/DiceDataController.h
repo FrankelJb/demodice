@@ -1,14 +1,15 @@
 //
-//  ViewController.h
+//  DemoDiceController.h
 //  demodice
 //
 //  Created by Jonathan Frankel on 2014/05/31.
 //  Copyright (c) 2014 Jonathan Frankel. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "DiceDataController.h"
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface DiceDataController : NSObject
+
+- (int)getDiceRoll;
 
 @end

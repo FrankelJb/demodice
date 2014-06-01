@@ -21,6 +21,7 @@
 		601E70D6193A120D0071C2E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601E70B8193A120D0071C2E0 /* UIKit.framework */; };
 		601E70DE193A120D0071C2E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 601E70DC193A120D0071C2E0 /* InfoPlist.strings */; };
 		601E70E0193A120D0071C2E0 /* demodiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E70DF193A120D0071C2E0 /* demodiceTests.m */; };
+		601E70EB193A12E20071C2E0 /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E70EA193A12E20071C2E0 /* DiceDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		601E70DB193A120D0071C2E0 /* demodiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demodiceTests-Info.plist"; sourceTree = "<group>"; };
 		601E70DD193A120D0071C2E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		601E70DF193A120D0071C2E0 /* demodiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demodiceTests.m; sourceTree = "<group>"; };
+		601E70E9193A12E20071C2E0 /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		601E70EA193A12E20071C2E0 /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		601E70BA193A120D0071C2E0 /* demodice */ = {
 			isa = PBXGroup;
 			children = (
+				601E70E9193A12E20071C2E0 /* DiceDataController.h */,
+				601E70EA193A12E20071C2E0 /* DiceDataController.m */,
 				601E70C3193A120D0071C2E0 /* AppDelegate.h */,
 				601E70C4193A120D0071C2E0 /* AppDelegate.m */,
 				601E70C6193A120D0071C2E0 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				601E70CB193A120D0071C2E0 /* ViewController.m in Sources */,
+				601E70EB193A12E20071C2E0 /* DiceDataController.m in Sources */,
 				601E70C5193A120D0071C2E0 /* AppDelegate.m in Sources */,
 				601E70C1193A120D0071C2E0 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				601E70E5193A120D0071C2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		601E70E6193A120D0071C2E0 /* Build configuration list for PBXNativeTarget "demodiceTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				601E70E8193A120D0071C2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
